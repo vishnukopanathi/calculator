@@ -1,46 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Calculator</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="calculator">
-        <div id="displayContainer"><input type="text" id="displayScreen" readonly></div>
-        <div class="calc-rows" id="row-1">
-            <button id="clearAll">AC</button>
-            <button id="backSpace">⇱</button>
-            <button class="operators">^</button>
-            <button class="operators" id="divide">/</button>
-        </div>
-        <div class="calc-rows" id="row-2">
-            <button class="digits" id="seven">7</button>
-            <button class="digits" id="eight">8</button>
-            <button class="digits" id="nine">9</button>
-            <button class="operators" id="multiply">*</button>
-        </div>
-        <div class="calc-rows" id="row-3">
-            <button class="digits" id="four">4</button>
-            <button class="digits" id="five">5</button>
-            <button class="digits" id="six">6</button>
-            <button class="operators" id="subtract">-</button>  
-        </div>
-        <div class="calc-rows" id="row-4">
-            <button class="digits" id="one">1</button>
-            <button class="digits" id="two">2</button>
-            <button class="digits" id="three">3</button>
-            <button class="operators" id="add">+</button>
-        </div>
-        <div class="calc-rows" id="row-5">
-            <button>+/-</button>
-            <button class="digits" id="zero">0</button>
-            <button class="digits" id="decimal">.</button>
-            <button id="equals">=</button>
-        </div>
-            
+      <div id="displayContainer">
+        <div><input type="text" id="displayPreview" readonly /></div>
+        <div><input type="text" id="displayScreen" readonly /></div>
+      </div>
+      <div class="calc-rows" id="row-1">
+        <button id="clearAll">AC</button>
+        <button id="backSpace">⇱</button>
+        <button class="operators">^</button>
+        <button class="operators" id="divide">/</button>
+      </div>
+      <div class="calc-rows" id="row-2">
+        <button class="digits" id="seven">7</button>
+        <button class="digits" id="eight">8</button>
+        <button class="digits" id="nine">9</button>
+        <button class="operators" id="multiply">*</button>
+      </div>
+      <div class="calc-rows" id="row-3">
+        <button class="digits" id="four">4</button>
+        <button class="digits" id="five">5</button>
+        <button class="digits" id="six">6</button>
+        <button class="operators" id="subtract">-</button>
+      </div>
+      <div class="calc-rows" id="row-4">
+        <button class="digits" id="one">1</button>
+        <button class="digits" id="two">2</button>
+        <button class="digits" id="three">3</button>
+        <button class="operators" id="add">+</button>
+      </div>
+      <div class="calc-rows" id="row-5">
+        <button>+/-</button>
+        <button class="digits" id="zero">0</button>
+        <button class="digits" id="decimal">.</button>
+        <button id="equals">=</button>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
